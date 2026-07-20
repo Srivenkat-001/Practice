@@ -53,14 +53,17 @@ button{
     margin-left: 60px;
     padding: 10px;
     border-radius: 10px;
-
-    
     color: white;
     font-size: 20px;
+    background: linear-gradient(to right,rgb(177, 143, 143),rgba(51, 202, 43, 0.359));
 }
 
 button:hover{
-    padding: 12px;
-    transition: 1s ease-in-out;
+    padding: 16px;
+    transition: .5s ease-in-out;
+    background: linear-gradient(to right,rgb(0, 0, 0), rgb(255, 255, 255));
     cursor: pointer;
+}
+h1{
+    color: white;
 }
