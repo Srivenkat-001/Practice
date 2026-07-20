@@ -1,0 +1,66 @@
+body{
+    background:url(straw-hat-pirates-3840x2160-24203.jpg
+);
+background-size: cover;
+background-repeat: repeat;
+
+   color: white;
+   height: 100vh;
+}
+
+div{
+   
+    /* background-image: url(luffy-1.jpg); */
+background-color: rgba(65, 62, 62, 0.5);
+      
+   backface-visibility: visible;
+   
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+   margin: 0 auto;
+   margin-top: 5vh;
+   height: 90vh;
+   width: 90vw;
+   display:flexbox;;
+    justify-content: auto;
+    align-items: center;
+    border-radius: 20px;
+}
+
+form{
+    Position: absolute;
+    top: 20vh;
+    left: 40vw;
+   justify-content: center;
+   align-items: center; 
+    
+ 
+}
+label{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    
+}
+input,select{
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+    }
+button{
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: 10px;
+    border-radius: 10px;
+
+    
+    color: white;
+    font-size: 20px;
+}
+
+button:hover{
+    padding: 12px;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}

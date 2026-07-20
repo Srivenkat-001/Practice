@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container{
+            background: white;
+            padding: 20px;
+            width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        h2{
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        input, select{
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+
+        button{
+            width: 48%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            background-color: royalblue;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>USER REGISTRATION PAGE</h1>
+
+<h2>NAME:</h2>
+<input type="text" id="name">
+
+<h2>PHONE NUMBER:</h2>
+<input type="tel" id="phone" pattern="[0-9]{10}" maxlength="10" required>
+
+<h2>BRANCH:</h2>
+<select id="branch">
+    <option>CSE</option>
+    <option>AIML</option>
+    <option>AIDS</option>
+</select>
+
+<h2>HT NO:</h2>
+<input type="text" id="ht" pattern="[A-Za-z0-9]{1,10}" maxlength="10" required>
+
+<button>BACK</button>
+<button id="submit">SUBMIT</button>
+
+</div>
+
+<script>
+const submit = document.getElementById("submit");
+
+submit.onclick = function() {
+    alert("Registration Successful");
+}
+</script>
+
+</body>
+</html>
